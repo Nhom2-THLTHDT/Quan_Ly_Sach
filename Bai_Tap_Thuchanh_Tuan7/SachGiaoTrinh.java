@@ -1,4 +1,4 @@
-public class SachGiaoTrinh extends Sach implements KiemKe {
+public class SachGiaoTrinh extends Sach implements IKiemKe {
     public SachGiaoTrinh(string maSach, String tieuDe, string tacGia, int namXuatBan, int soLuong, double giaCoBan) {
         super(naSach, tieuDe, tacGia,namXuatBan, soLuong, giaCoBan);
     }

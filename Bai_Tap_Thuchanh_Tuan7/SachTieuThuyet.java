@@ -1,4 +1,4 @@
-public class SachTieuThuyet extends Sach implements KiemKe {
+public class SachTieuThuyet extends Sach implements IKiemKe {
     private boolean laSachSeries;
 
     public SachTieuThuyet(String maSach, string tieuDe, string tacGia, int namXuatBan, int soLuong, double giaCoBan, boolean laSachSeries) {

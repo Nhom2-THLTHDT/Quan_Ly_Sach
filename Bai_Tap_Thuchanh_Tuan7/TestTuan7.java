@@ -11,7 +11,7 @@ public class Test {
         q1.hienThiTatCa();
 
         System.out.println("\n=== Kiểm tra giao diện KIỂM KÊ ===");
-        KiemKe kiemke = new SachGiaoTrinh("GT02", "Toán cao cấp", "Lê Viết", 2022, 15, 36000);
+        IKiemKe kiemke = new SachGiaoTrinh("GT02", "Toán cao cấp", "Lê Viết", 2022, 15, 36000);
 
         System.out.println("Còn đủ tồn ko 100 không? " + (kiemke.kiemTraTonKho(100) ? "Đủ" : "Không đủ"));
         kiemke.capNhatViTri("Kho A1 - Kệ 5");
